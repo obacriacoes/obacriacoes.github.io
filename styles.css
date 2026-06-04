@@ -431,7 +431,7 @@ nav a:hover {
   overflow: hidden;
   background: var(--background);
   border: 1px solid var(--divider);
-  border-radius: 18px;
+  border-radius: 0px;
 }
 
 .shot-body img {
