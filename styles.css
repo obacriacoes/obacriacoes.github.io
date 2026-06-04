@@ -409,11 +409,16 @@ nav a:hover {
 
 .shot {
   padding: 14px;
+  color: #ffffff;
+  background:
+    linear-gradient(135deg, rgba(124, 92, 255, 0.92), rgba(167, 107, 250, 0.82)),
+    var(--secondary);
+  border-color: rgba(255, 255, 255, 0.26);
 }
 
 .shot-top {
   padding: 4px 6px 12px;
-  color: var(--secondary);
+  color: #ffffff;
   font-size: 0.9rem;
   font-weight: 600;
 }
@@ -439,6 +444,7 @@ nav a:hover {
 
 .shot p {
   padding: 14px 6px 4px;
+  color: rgba(255, 255, 255, 0.9);
   font-size: 0.96rem;
 }
 
