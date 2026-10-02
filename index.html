@@ -1,470 +1,159 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-  <title>Oração Diária com Deus | App cristão de orações, devocionais e propósitos</title>
-  <meta name="description"
-    content="Instale Oração Diária com Deus: app cristão com orações diárias, devocionais, propósitos de oração, notificações, temas de cores e compartilhamento." />
-  <meta name="theme-color" content="#F7F8FA" />
-  <meta name="robots" content="index, follow, max-image-preview:large" />
-  <link rel="canonical" href="https://oracaodiariacomdeus.com.br/" />
-
-  <meta property="og:locale" content="pt_BR" />
-  <meta property="og:type" content="website" />
-  <meta property="og:site_name" content="Oração Diária com Deus" />
-  <meta property="og:title" content="Oração Diária com Deus | App cristão para sua rotina com Deus" />
-  <meta property="og:description"
-    content="Orações, devocionais, propósitos de oração, notificações, temas de cores e compartilhamento em um app cristão moderno e fácil de usar." />
-  <meta property="og:url" content="https://oracaodiariacomdeus.com.br/" />
-  <meta property="og:image" content="https://oracaodiariacomdeus.com.br/images/tela-inicial.png" />
-  <meta property="og:image:alt" content="Tela inicial do app Oração Diária com Deus" />
-
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="Oração Diária com Deus | App cristão para sua rotina com Deus" />
-  <meta name="twitter:description"
-    content="Fortaleça sua rotina espiritual com orações, devocionais, propósitos, notificações e temas de cores." />
-  <meta name="twitter:image" content="https://oracaodiariacomdeus.com.br/images/tela-inicial.png" />
-
-  <meta name="application-name" content="Oração Diária com Deus" />
-  <meta name="apple-mobile-web-app-title" content="Oração Diária com Deus" />
-
-  <link rel="alternate" href="android-app://com.obacriacoes.oracaodamanha/https/oracaodiariacomdeus.com.br/" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link
-    href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Poppins:wght@500;600;700&display=swap"
-    rel="stylesheet" />
-  <link rel="stylesheet" href="styles.css" />
-
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Oração Diária com Deus | Seu momento com Deus, todos os dias</title>
+  <meta name="description" content="Encontre orações, devocionais e versículos para o seu dia. Acompanhe propósitos de oração e compartilhe fé com quem você ama. Instale grátis para Android.">
+  <meta name="theme-color" content="#0969D7">
+  <meta name="robots" content="index, follow, max-image-preview:large">
+  <link rel="canonical" href="https://oracaodiariacomdeus.com.br/">
+  <link rel="icon" type="image/png" href="images/logo.png">
+  <link rel="apple-touch-icon" href="images/logo.png">
+  <meta property="og:locale" content="pt_BR">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Oração Diária com Deus">
+  <meta property="og:title" content="Seu momento com Deus, todos os dias">
+  <meta property="og:description" content="Orações, devocionais e propósitos para uma caminhada de fé no seu ritmo. Disponível gratuitamente para Android.">
+  <meta property="og:url" content="https://oracaodiariacomdeus.com.br/">
+  <meta property="og:image" content="https://oracaodiariacomdeus.com.br/images/convite.png">
+  <meta property="og:image:width" content="1024">
+  <meta property="og:image:height" content="500">
+  <meta property="og:image:alt" content="Oração Diária com Deus: nova logo azul e Bíblia iluminada pelo sol">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Oração Diária com Deus">
+  <meta name="twitter:description" content="Seu momento com Deus, todos os dias. Orações e devocionais no seu celular.">
+  <meta name="twitter:image" content="https://oracaodiariacomdeus.com.br/images/convite.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
   <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "SoftwareApplication",
-    "name": "Oração Diária com Deus",
-    "applicationCategory": "LifestyleApplication",
-    "operatingSystem": "Android",
-    "description": "Aplicativo cristão com orações diárias, devocionais, propósitos de oração, notificações, temas de cores e compartilhamento.",
-    "url": "https://oracaodiariacomdeus.com.br/",
-    "downloadUrl": "https://play.google.com/store/apps/details?id=com.obacriacoes.oracaodamanha",
-    "installUrl": "https://play.google.com/store/apps/details?id=com.obacriacoes.oracaodamanha",
-    "offers": {
-      "@type": "Offer",
-      "price": "0",
-      "priceCurrency": "BRL"
-    },
-    "publisher": {
-      "@type": "Organization",
-      "name": "Oração Diária com Deus"
-    },
-    "image": [
-      "https://oracaodiariacomdeus.com.br/images/tela-inicial.png",
-      "https://oracaodiariacomdeus.com.br/images/tela-detalhe.png",
-      "https://oracaodiariacomdeus.com.br/images/tela-devocional.png"
-    ]
-  }
+  {"@context":"https://schema.org","@type":"SoftwareApplication","name":"Oração Diária com Deus","operatingSystem":"Android","applicationCategory":"LifestyleApplication","inLanguage":["pt","en","es"],"url":"https://oracaodiariacomdeus.com.br/","downloadUrl":"https://play.google.com/store/apps/details?id=com.obacriacoes.oracaodamanha","image":"https://oracaodiariacomdeus.com.br/images/convite.png","offers":{"@type":"Offer","price":"0","priceCurrency":"BRL"},"publisher":{"@type":"Organization","name":"OBA.Apps"}}
   </script>
-
+  <!-- FAQ sincronizado -->
   <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    "mainEntity": [
-      {
-        "@type": "Question",
-        "name": "Oração Diária com Deus é gratuito?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Sim. O app pode ser instalado gratuitamente pela Play Store."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "O que posso fazer no app?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Você pode acessar orações diárias, devocionais, conteúdos como Como Orar e Pai Nosso, criar propósitos de oração, receber lembretes, personalizar temas de cores e compartilhar mensagens com outras pessoas."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "Como funcionam os propósitos de oração?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "A área de Propósitos de Oração ajuda a acompanhar jornadas espirituais de 7, 14, 21, 30 ou 40 dias. Cada propósito pode ficar com status em oração ou concluído."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "O app envia notificações?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Sim. O app pode enviar lembretes para ajudar você a manter uma rotina diária de oração, devocional e reflexão com Deus."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "Posso personalizar as cores do app?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Sim. O app oferece temas de cores para deixar a leitura mais agradável e combinar melhor com seu momento de oração."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "O app funciona em outros idiomas?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Sim. O app mantém suporte a português, inglês e espanhol."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "Meus propósitos ficam salvos?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Sim. Os propósitos são salvos localmente no aparelho, para que você possa acompanhar sua jornada espiritual dentro do próprio app."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "Posso compartilhar orações e devocionais?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Sim. Você pode compartilhar orações, devocionais e mensagens de fé com amigos e familiares."
-        }
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "O aplicativo é gratuito?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Sim. Você pode instalar o Oração Diária com Deus gratuitamente pela Google Play e começar sua rotina de oração no celular."
       }
-    ]
-  }
+    },
+    {
+      "@type": "Question",
+      "name": "Quais recursos encontro no app?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Orações diárias e por temas, devocionais, versículos, orientações sobre como orar, Pai Nosso, propósitos de oração, temas de cores, lembretes e compartilhamento."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Como funcionam os propósitos de oração?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Você cria um pedido, escolhe uma duração de 7, 14, 21, 30 ou 40 dias e marca os dias de oração. Os propósitos podem estar em oração ou concluídos."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Meus propósitos ficam salvos?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Sim. Os propósitos ficam salvos localmente no seu aparelho para você acompanhar sua caminhada dentro do app."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Posso receber lembretes de oração?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Sim. Você pode ativar os lembretes nas configurações do app e permitir as notificações no Android para lembrar do seu momento de oração."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Posso mudar as cores do aplicativo?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Sim. Você pode escolher entre os temas Clássico, Rosé, Verde e Lilás nas configurações do app."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Quais idiomas estão disponíveis?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "O aplicativo oferece suporte a português, inglês e espanhol."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Posso compartilhar uma oração ou devocional?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Sim. Compartilhe conteúdos e artes com amigos e familiares para levar uma mensagem de fé a quem você ama."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "É simples usar todos os dias?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Sim. Abra o app, escolha um conteúdo e dedique alguns minutos ao seu momento com Deus. Você pode acompanhar sua jornada e organizar seus propósitos ao longo dos dias."
+      }
+    }
+  ]
+}
   </script>
 </head>
-
-<body>
-  <header class="site-header">
-    <div class="container nav">
-      <a href="#top" class="brand" aria-label="Página inicial Oração Diária com Deus">
-        <span class="brand-mark" aria-hidden="true">OD</span>
-        <span>Oração Diária com Deus</span>
-      </a>
-      <nav aria-label="Navegação principal">
-        <a href="#recursos">Recursos</a>
-        <a href="#propositos">Propósitos</a>
-        <a href="#temas">Temas</a>
-        <a href="#telas">Telas</a>
-        <a href="#faq">Dúvidas</a>
-      </nav>
-    </div>
-  </header>
-
-  <main id="top">
-    <section class="hero">
-      <img class="free-badge"
-        src="images/gratis.png"
-        alt="Grátis" />
-      <div class="container hero-grid">
-        <div class="hero-copy reveal">
-          <span class="eyebrow">App cristão moderno para Android</span>
-          <h1>Fortaleça sua rotina com Deus todos os dias.</h1>
-          <p class="lead">
-            Orações, devocionais, propósitos de oração, lembretes e temas de cores em uma experiência
-            simples, bonita e feita para acompanhar seu momento de fé.
-          </p>
-          <div class="hero-actions">
-            <a class="btn btn-primary"
-              href="https://play.google.com/store/apps/details?id=com.obacriacoes.oracaodamanha"
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label="Baixar Oração Diária com Deus na Google Play">
-              <img class="btn-store-icon" src="images/google-play.png" alt="" aria-hidden="true" />
-              Baixe agora
-            </a>
-            <a class="btn btn-secondary" href="#recursos">Conhecer recursos</a>
-          </div>
-          <div class="hero-points" aria-label="Principais vantagens">
-            <span>Oração diária</span>
-            <span>Devocionais</span>
-            <span>Propósitos</span>
-            <span>Notificações</span>
-          </div>
-        </div>
-
-        <div class="hero-visual reveal-delay" aria-label="Prévia visual do aplicativo">
-          <div class="halo-card">
-            <div class="phone-frame phone-back" aria-hidden="true">
-              <img src="images/tela-devocional.png" alt="" />
-            </div>
-            <div class="phone-frame phone-front">
-              <img src="images/tela-inicial.png"
-                alt="Tela inicial do aplicativo Oração Diária com Deus mostrando conteúdos espirituais" />
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="value-strip container reveal" aria-label="Resumo do aplicativo">
-      <div>
-        <strong>Conteúdo para cada momento</strong>
-        <span>Orações, devocionais, Pai Nosso e orientações sobre como orar.</span>
-      </div>
-      <div>
-        <strong>Rotina espiritual organizada</strong>
-        <span>Propósitos de oração com duração e acompanhamento de status.</span>
-      </div>
-      <div>
-        <strong>Experiência personalizada</strong>
-        <span>Temas de cores, notificações e compartilhamento de mensagens.</span>
-      </div>
-    </section>
-
-    <section id="recursos" class="section container">
-      <div class="section-heading reveal">
-        <span class="eyebrow">Recursos do app</span>
-        <h2>Sua rotina de oração mais simples, bonita e constante.</h2>
-        <p>
-          Tenha em um só lugar os recursos que ajudam você a orar, refletir, acompanhar seus
-          propósitos e compartilhar mensagens de fé com quem precisa.
-        </p>
-      </div>
-
-      <div class="feature-grid">
-        <article class="feature-card reveal">
-          <span class="feature-icon prayer">OR</span>
-          <h3>Orações diárias</h3>
-          <p>Conteúdos organizados para começar o dia, encerrar a noite, agradecer, pedir direção e buscar paz.</p>
-        </article>
-        <article class="feature-card reveal">
-          <span class="feature-icon devotional">DV</span>
-          <h3>Devocionais</h3>
-          <p>Reflexões para manter uma vida espiritual constante, com leitura confortável e navegação simples.</p>
-        </article>
-        <article class="feature-card reveal">
-          <span class="feature-icon purpose">PR</span>
-          <h3>Propósitos de oração</h3>
-          <p>Crie e acompanhe propósitos de 7, 14, 21, 30 ou 40 dias, marcando o status da sua jornada.</p>
-        </article>
-        <article class="feature-card reveal">
-          <span class="feature-icon themes">TM</span>
-          <h3>Temas de cores</h3>
-          <p>Escolha uma aparência mais agradável para ler, orar e usar o app no seu ritmo.</p>
-        </article>
-        <article class="feature-card reveal">
-          <span class="feature-icon calm">NT</span>
-          <h3>Notificações</h3>
-          <p>Receba lembretes para manter seu momento diário com Deus mesmo nos dias mais corridos.</p>
-        </article>
-        <article class="feature-card reveal">
-          <span class="feature-icon gold">SH</span>
-          <h3>Compartilhamento</h3>
-          <p>Envie orações e devocionais para amigos e familiares, levando uma palavra de fé para outras pessoas.</p>
-        </article>
-      </div>
-    </section>
-
-    <section id="propositos" class="section section-highlight">
-      <div class="container split">
-        <div class="split-copy reveal">
-          <span class="eyebrow">Propósitos de oração</span>
-          <h2>Acompanhe sua jornada espiritual com clareza.</h2>
-          <p>
-            A área de Propósitos ajuda a transformar intenção em constância. Você escolhe a duração,
-            registra seu propósito e acompanha se ele está em oração ou concluído.
-          </p>
-          <div class="duration-list" aria-label="Durações disponíveis">
-            <span>7 dias</span>
-            <span>14 dias</span>
-            <span>21 dias</span>
-            <span>30 dias</span>
-            <span>40 dias</span>
-          </div>
-        </div>
-        <div class="purpose-panel reveal-delay">
-          <div class="panel-top">
-            <span>Propósito atual</span>
-            <strong>Em oração</strong>
-          </div>
-          <div class="progress-row">
-            <span>Dia 12 de 21</span>
-            <span>57%</span>
-          </div>
-          <div class="progress-track"><span style="width: 57%"></span></div>
-          <p>Perseverar em oração, gratidão e entrega diária a Deus.</p>
-          <div class="panel-actions">
-            <span>Concluir</span>
-            <span>Continuar orando</span>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section id="temas" class="section container">
-      <div class="section-heading reveal">
-        <span class="eyebrow">Visual do app</span>
-        <h2>Escolha uma experiência visual que combine com seu momento de oração.</h2>
-        <p>
-          O app conta com esquemas de cores pensados para deixar a leitura mais agradável,
-          leve e acolhedora durante seu momento com Deus.
-        </p>
-      </div>
-      <div class="theme-row reveal">
-        <div class="theme-swatch classic">
-          <span></span><span></span><span></span><span></span>
-          <strong>Clássico</strong>
-        </div>
-        <div class="theme-copy">
-          <h3>Deixe o app com uma aparência mais próxima do seu momento de fé.</h3>
-          <p>
-            Os temas de cores deixam a leitura mais confortável e tornam a experiência mais acolhedora
-            para oração, devocional e reflexão diária.
-          </p>
-        </div>
-      </div>
-    </section>
-
-    <section id="telas" class="section section-soft">
-      <div class="container">
-        <div class="section-heading reveal">
-          <span class="eyebrow">Telas do aplicativo</span>
-          <h2>Uma navegação clara para você encontrar rapidamente o que precisa.</h2>
-          <p>
-            Orações, devocionais e conteúdos espirituais aparecem em telas limpas,
-            organizadas e confortáveis para o uso diário.
-          </p>
-        </div>
-
-        <div class="shots-grid">
-          <article class="shot reveal">
-            <div class="shot-top">Tela inicial</div>
-            <div class="shot-body">
-              <img src="images/tela-inicial.png"
-                alt="Tela inicial do aplicativo Oração Diária com Deus" />
-            </div>
-            <p>Acesso rápido aos conteúdos principais para iniciar o momento de oração.</p>
-          </article>
-
-          <article class="shot reveal">
-            <div class="shot-top">Leitura</div>
-            <div class="shot-body">
-              <img src="images/tela-detalhe.png"
-                alt="Tela de leitura de oração no aplicativo Oração Diária com Deus" />
-            </div>
-            <p>Texto confortável, visual limpo e foco no conteúdo espiritual.</p>
-          </article>
-
-          <article class="shot reveal">
-            <div class="shot-top">Devocional</div>
-            <div class="shot-body">
-              <img src="images/tela-devocional.png"
-                alt="Tela de devocional diário do aplicativo Oração Diária com Deus" />
-            </div>
-            <p>Reflexões para fortalecer a fé e manter constância no dia a dia.</p>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <section class="section container">
-      <div class="conversion-grid conversion-grid-single">
-        <article class="conversion-card dark reveal">
-          <span class="eyebrow">Instale agora</span>
-          <h2>Leve oração, devocional e propósito para o seu celular.</h2>
-          <p>Comece com poucos minutos por dia e mantenha sua rotina espiritual mais presente.</p>
-          <a class="btn btn-primary"
-            href="https://play.google.com/store/apps/details?id=com.obacriacoes.oracaodamanha"
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label="Instalar aplicativo Oração Diária com Deus">
-            <img class="btn-store-icon" src="images/google-play.png" alt="" aria-hidden="true" />
-            Instalar pela Play Store
-          </a>
-        </article>
-      </div>
-    </section>
-
-    <section id="faq" class="section container">
-      <div class="section-heading reveal">
-        <span class="eyebrow">Perguntas frequentes</span>
-        <h2>Tudo o que você precisa saber antes de instalar.</h2>
-        <p>
-          Respostas rápidas sobre instalação, propósitos, notificações,
-          personalização e privacidade na experiência do aplicativo.
-        </p>
-      </div>
-
-      <div class="faq-list">
-        <details class="faq-item reveal">
-          <summary>Oração Diária com Deus é gratuito?</summary>
-          <p>Sim. Você pode instalar o aplicativo gratuitamente pela Play Store e começar sua rotina de oração no celular.</p>
-        </details>
-
-        <details class="faq-item reveal">
-          <summary>Quais recursos o aplicativo oferece?</summary>
-          <p>Você encontra orações diárias, devocionais, conteúdos para aprender como orar, Pai Nosso, propósitos de oração, temas de cores, notificações e compartilhamento.</p>
-        </details>
-
-        <details class="faq-item reveal">
-          <summary>Como funcionam os propósitos de oração?</summary>
-          <p>Você pode criar e acompanhar propósitos de 7, 14, 21, 30 ou 40 dias. Cada propósito pode ficar marcado como em oração ou concluído.</p>
-        </details>
-
-        <details class="faq-item reveal">
-          <summary>Meus propósitos ficam salvos?</summary>
-          <p>Sim. Os propósitos são salvos localmente no aparelho, para você acompanhar sua jornada espiritual dentro do próprio app.</p>
-        </details>
-
-        <details class="faq-item reveal">
-          <summary>Posso receber lembretes de oração?</summary>
-          <p>Sim. O app pode enviar notificações para ajudar você a manter uma rotina diária de oração, devocional e reflexão.</p>
-        </details>
-
-        <details class="faq-item reveal">
-          <summary>Posso mudar as cores do app?</summary>
-          <p>Sim. O app possui temas de cores para deixar a leitura mais agradável e combinar melhor com seu momento de oração.</p>
-        </details>
-
-        <details class="faq-item reveal">
-          <summary>O app funciona em outros idiomas?</summary>
-          <p>Sim. O app mantém suporte a português, inglês e espanhol.</p>
-        </details>
-
-        <details class="faq-item reveal">
-          <summary>Posso compartilhar uma oração ou devocional?</summary>
-          <p>Sim. Você pode compartilhar conteúdos com amigos e familiares, levando uma mensagem de fé para quem precisa.</p>
-        </details>
-
-        <details class="faq-item reveal">
-          <summary>O app é simples para usar todos os dias?</summary>
-          <p>Sim. A experiência foi pensada para ser direta: abrir o app, escolher um conteúdo e dedicar alguns minutos ao seu momento com Deus.</p>
-        </details>
-      </div>
-    </section>
+<body id="top">
+  <a class="skip-link" href="#conteudo">Ir para o conteúdo</a>
+  <header class="site-header"><div class="container nav">
+    <a href="#top" class="brand" aria-label="Oração Diária com Deus — início"><img src="images/logo.png" alt="" width="44" height="44"><span>Oração Diária<br><strong>com Deus</strong></span></a>
+    <button class="menu-toggle" type="button" aria-controls="menu" aria-expanded="false" hidden>Menu <span aria-hidden="true">☰</span></button>
+    <nav id="menu" aria-label="Navegação principal"><a href="#recursos">O app</a><a href="#propositos">Propósitos</a><a href="#temas">Seu estilo</a><a href="#screens">Telas</a><a href="#faq">Dúvidas</a><a class="nav-download" href="https://play.google.com/store/apps/details?id=com.obacriacoes.oracaodamanha" target="_blank" rel="noopener noreferrer">Baixar grátis <span aria-hidden="true">↗</span></a></nav>
+  </div></header>
+  <main id="conteudo">
+    <section class="hero"><div class="container hero-grid">
+      <div class="hero-copy"><span class="eyebrow"><span class="eyebrow-line" aria-hidden="true"></span> UMA PAUSA. UMA ORAÇÃO. UM NOVO DIA.</span><h1>Seu momento<br>com Deus,<br><em>todos os dias.</em></h1><p class="lead">No meio da rotina, abra espaço para a fé. Encontre orações, reflita na Palavra e leve seus pedidos a Deus — um dia de cada vez.</p><a class="btn btn-primary store-button" href="https://play.google.com/store/apps/details?id=com.obacriacoes.oracaodamanha" target="_blank" rel="noopener noreferrer"><img src="images/google-play.png" width="27" height="30" alt="">Baixar grátis no Google Play <span aria-hidden="true">↗</span></a><p class="download-note">Para Android · Português, inglês e espanhol</p><a class="text-link" href="#recursos">Conheça o seu próximo momento de fé <span aria-hidden="true">↓</span></a></div>
+      <div class="hero-visual"><div class="hero-orbit" aria-hidden="true"></div><span class="hero-spark" aria-hidden="true">✦</span><div class="device hero-device"><img src="images/home.jpg" alt="Tela inicial real do app com saudação, jornada de oração e oração do dia" width="996" height="2048" fetchpriority="high"></div><div class="moment-note"><span class="note-icon" aria-hidden="true">♡</span><div>Um dia de cada vez.<small>Uma caminhada mais perto de Deus.</small></div></div><span class="visual-caption">UM OLHAR PARA DENTRO DO APP</span></div>
+    </div></section>
+    <div id="beneficios" class="benefits-band"><div class="container benefits"><p><span aria-hidden="true">01</span> Palavras para orar</p><p><span aria-hidden="true">02</span> Reflexões para o dia</p><p><span aria-hidden="true">03</span> Constância na sua caminhada</p></div></div>
+    <section id="recursos" class="section container"><div class="section-heading"><span class="eyebrow">FÉ NO DIA A DIA</span><h2>Para quando você quer orar.<br>E para quando faltam palavras.</h2><p>Um lugar acolhedor no seu celular para conversar com Deus, encontrar inspiração e cuidar da sua vida espiritual.</p></div><div class="feature-grid">
+      <article class="feature-card"><span class="feature-number">01 / ORAÇÃO</span><h3>Comece uma conversa com Deus.</h3><p>Orações diárias e por temas para diferentes momentos da vida. Encontre também o Pai Nosso e orientações sobre como orar.</p><a class="text-link" href="#screens">Veja as orações <span aria-hidden="true">↗</span></a></article>
+      <article class="feature-card"><span class="feature-number">02 / PALAVRA</span><h3>Leve uma reflexão para o seu dia.</h3><p>Devocionais e versículos que convidam a desacelerar, refletir e trazer a Palavra para mais perto da sua rotina.</p><a class="text-link" href="#screens">Conheça os devocionais <span aria-hidden="true">↗</span></a></article>
+      <article class="feature-card"><span class="feature-number">03 / CONSTÂNCIA</span><h3>Volte à fé, um dia de cada vez.</h3><p>Acompanhe sua jornada e ative lembretes de oração. Pequenos momentos podem fazer parte de uma rotina com mais propósito.</p><a class="text-link" href="#propositos">Descubra os propósitos <span aria-hidden="true">↗</span></a></article>
+    </div></section>
+    <section id="propositos" class="purpose-section section"><div class="container split"><div class="purpose-visual"><div class="device purpose-device"><img src="images/propositos.jpg" alt="Tela real de Propósitos: pedidos de oração, duração, progresso e marcação diária" width="996" height="2048" loading="lazy"></div><div class="purpose-label"><span aria-hidden="true">✓</span> Cada dia de oração conta.</div></div><div class="split-copy"><span class="eyebrow">SEUS PEDIDOS NAS MÃOS DE DEUS</span><h2>Há coisas que merecem<br><em>a sua oração.</em></h2><p class="lead">Sua família. Uma decisão. Um recomeço. Crie um propósito e encontre um jeito simples de continuar orando pelo que está no seu coração.</p><ol class="steps"><li><span>1</span><div><h3>Dê um nome ao seu propósito.</h3><p>Registre o pedido que você quer levar a Deus.</p></div></li><li><span>2</span><div><h3>Escolha a duração da caminhada.</h3><p>7, 14, 21, 30 ou 40 dias de oração.</p></div></li><li><span>3</span><div><h3>Marque cada dia e acompanhe.</h3><p>Veja o progresso dos propósitos em oração e concluídos.</p></div></li></ol><p class="quiet-note">Seus propósitos ficam salvos localmente no aparelho.</p></div></div></section>
+    <section id="screens" class="section container screens-section"><div class="section-heading horizontal-heading"><div><span class="eyebrow">CONHEÇA POR DENTRO</span><h2>Um app feito para<br>o seu momento de fé.</h2></div><p>Leitura, reflexão, oração e uma mensagem para quem você ama. Explore as telas reais do aplicativo.</p></div><div class="screens-grid">
+      <figure class="screen-card"><a href="images/oracao.jpg" class="screenshot-link" aria-label="Ampliar tela de leitura de oração"><img src="images/oracao.jpg" alt="Oração Vitória espiritual, com texto e botão Amém, eu creio" width="996" height="2048" loading="lazy"><span class="zoom-hint" aria-hidden="true">Ampliar ↗</span></a><figcaption><span>01 / ORAÇÕES</span><h3>Encontre palavras para orar.</h3><p>Dedique alguns minutos à sua conversa com Deus.</p></figcaption></figure>
+      <figure class="screen-card"><a href="images/devocional.jpg" class="screenshot-link" aria-label="Ampliar tela de devocional"><img src="images/devocional.jpg" alt="Devocional diário com paisagem, mensagem de fé e reflexão" width="996" height="2048" loading="lazy"><span class="zoom-hint" aria-hidden="true">Ampliar ↗</span></a><figcaption><span>02 / DEVOCIONAIS</span><h3>Uma pausa para a Palavra.</h3><p>Reflexões para levar com você ao longo do dia.</p></figcaption></figure>
+      <figure class="screen-card"><a href="images/propositos.jpg" class="screenshot-link" aria-label="Ampliar tela de propósitos"><img src="images/propositos.jpg" alt="Lista de propósitos de oração com acompanhamento diário" width="996" height="2048" loading="lazy"><span class="zoom-hint" aria-hidden="true">Ampliar ↗</span></a><figcaption><span>03 / PROPÓSITOS</span><h3>Cuide do que está no coração.</h3><p>Organize pedidos e acompanhe sua caminhada.</p></figcaption></figure>
+      <figure class="screen-card"><a href="images/compartilhar.jpg" class="screenshot-link" aria-label="Ampliar tela de compartilhamento"><img src="images/compartilhar.jpg" alt="Prévia de arte de oração para compartilhar com amigos e familiares" width="996" height="2048" loading="lazy"><span class="zoom-hint" aria-hidden="true">Ampliar ↗</span></a><figcaption><span>04 / COMPARTILHAR</span><h3>Envie um pouco de esperança.</h3><p>Compartilhe uma mensagem de fé com quem você ama.</p></figcaption></figure>
+    </div></section>
+    <section id="temas" class="section personalization-section"><div class="container split personalization-grid"><div class="split-copy"><span class="eyebrow">DO SEU JEITO, NO SEU RITMO</span><h2>Uma caminhada de fé<br>que combina <em>com você.</em></h2><p class="lead">Escolha as cores que mais acolhem o seu momento. Ajuste a leitura e os lembretes para que a oração encontre espaço no seu dia.</p><div class="theme-swatches" aria-label="Temas disponíveis no aplicativo"><div><span style="--swatch:#0969D7"></span>Clássico</div><div><span style="--swatch:#A95768"></span>Rosé</div><div><span style="--swatch:#647A52"></span>Verde</div><div><span style="--swatch:#7D5BB6"></span>Lilás</div></div><ul class="simple-list"><li>Português, inglês e espanhol</li><li>Ajuste do tamanho da fonte na leitura</li><li>Lembretes para o seu momento de oração</li></ul></div><div class="settings-visual"><div class="device settings-device"><img src="images/configuracoes.jpg" alt="Configurações reais do app com idiomas, quatro temas e lembretes de oração" width="996" height="2048" loading="lazy"></div><span class="settings-label">Pequenos ajustes.<br><strong>Um momento mais seu.</strong></span></div></div></section>
+    <section class="section container invitation-section"><div class="invitation"><img class="invitation-art" src="images/convite.png" alt="Oração Diária com Deus: arte com a nova logo e uma Bíblia sob luz suave" width="1024" height="500" loading="lazy"><div class="invitation-copy"><span class="eyebrow">SEU PRÓXIMO MOMENTO COMEÇA AQUI</span><h2>Reserve um momento<br>para estar com Deus.</h2><p>Abra o app. Escolha uma oração. Comece a sua caminhada, um dia de cada vez.</p><a class="btn btn-primary store-button" href="https://play.google.com/store/apps/details?id=com.obacriacoes.oracaodamanha" target="_blank" rel="noopener noreferrer"><img src="images/google-play.png" width="27" height="30" alt="">Baixar grátis no Google Play <span aria-hidden="true">↗</span></a><p class="download-note">Disponível para Android</p></div></div></section>
+    <section id="faq" class="section container faq-section"><div class="faq-intro"><span class="eyebrow">PODEMOS AJUDAR?</span><h2>Antes de<br><em>começar.</em></h2><p>Algumas respostas para conhecer melhor o aplicativo.</p><a class="text-link" href="mailto:obacriacoes@gmail.com">Fale com a gente <span aria-hidden="true">↗</span></a></div><div class="faq-list">
+      <details><summary>O aplicativo é gratuito?</summary><p>Sim. Você pode instalar o Oração Diária com Deus gratuitamente pela Google Play e começar sua rotina de oração no celular.</p></details>
+      <details><summary>Quais recursos encontro no app?</summary><p>Orações diárias e por temas, devocionais, versículos, orientações sobre como orar, Pai Nosso, propósitos de oração, temas de cores, lembretes e compartilhamento.</p></details>
+      <details><summary>Como funcionam os propósitos de oração?</summary><p>Você cria um pedido, escolhe uma duração de 7, 14, 21, 30 ou 40 dias e marca os dias de oração. Os propósitos podem estar em oração ou concluídos.</p></details>
+      <details><summary>Meus propósitos ficam salvos?</summary><p>Sim. Os propósitos ficam salvos localmente no seu aparelho para você acompanhar sua caminhada dentro do app.</p></details>
+      <details><summary>Posso receber lembretes de oração?</summary><p>Sim. Você pode ativar os lembretes nas configurações do app e permitir as notificações no Android para lembrar do seu momento de oração.</p></details>
+      <details><summary>Posso mudar as cores do aplicativo?</summary><p>Sim. Você pode escolher entre os temas Clássico, Rosé, Verde e Lilás nas configurações do app.</p></details>
+      <details><summary>Quais idiomas estão disponíveis?</summary><p>O aplicativo oferece suporte a português, inglês e espanhol.</p></details>
+      <details><summary>Posso compartilhar uma oração ou devocional?</summary><p>Sim. Compartilhe conteúdos e artes com amigos e familiares para levar uma mensagem de fé a quem você ama.</p></details>
+      <details><summary>É simples usar todos os dias?</summary><p>Sim. Abra o app, escolha um conteúdo e dedique alguns minutos ao seu momento com Deus. Você pode acompanhar sua jornada e organizar seus propósitos ao longo dos dias.</p></details>
+    </div></section>
   </main>
-
-  <footer class="site-footer">
-    <div class="container footer-grid">
-      <div>
-        <a href="#top" class="brand footer-brand" aria-label="Voltar ao topo da página">
-          <span class="brand-mark" aria-hidden="true">OD</span>
-          <span>Oração Diária com Deus</span>
-        </a>
-        <p class="footer-copy">Um app cristão moderno para oração, devocional, propósito e rotina com Deus.</p>
-      </div>
-      <div>
-        <h4>Links</h4>
-        <a href="privacy-policy.html">Política de Privacidade</a>
-        <a href="terms.html">Termos de Uso</a>
-      </div>
-      <div>
-        <h4>Contato</h4>
-        <a href="mailto:obacriacoes@gmail.com">obacriacoes@gmail.com</a>
-        <a href="https://play.google.com/store/apps/details?id=com.obacriacoes.oracaodamanha" target="_blank" rel="noopener noreferrer">Google Play</a>
-      </div>
-    </div>
-  </footer>
-
-  <script src="script.js"></script>
+  <footer class="site-footer"><div class="container footer-grid"><div><a href="#top" class="brand"><img src="images/logo.png" alt="" width="44" height="44" loading="lazy"><span>Oração Diária<br><strong>com Deus</strong></span></a><p>Um momento de oração.<br>Uma caminhada de fé, todos os dias.</p></div><div><h3>Explore</h3><a href="#recursos">Conheça o app</a><a href="#propositos">Propósitos de oração</a><a href="https://play.google.com/store/apps/details?id=com.obacriacoes.oracaodamanha" target="_blank" rel="noopener noreferrer">Baixe no Google Play ↗</a></div><div><h3>Informações e contato</h3><a href="privacy-policy.html">Política de Privacidade</a><a href="terms.html">Termos de Uso</a><a href="mailto:obacriacoes@gmail.com">obacriacoes@gmail.com</a></div></div><div class="container footer-bottom"><span>Oração Diária com Deus · OBA.Apps</span><a href="#top">Voltar ao topo ↑</a></div></footer>
+  <dialog class="image-dialog" aria-label="Tela ampliada do aplicativo"><button class="dialog-close" type="button" aria-label="Fechar tela ampliada">Fechar ×</button><img src="images/home.jpg" alt="Tela do aplicativo ampliada"><p></p></dialog>
 </body>
-
 </html>
